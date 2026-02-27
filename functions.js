@@ -22,4 +22,17 @@ function Greeter(props){
 }
 
 
+(firstName, lastName) => {                            //arrow function syntax with destructuring
+    console.log(firstName, lastName);
+}
+
+() => {                                                
+    console.log("This is an arrow function with no parameters")     //arrow function syntax with no parameters. You must include the parentheses if there are no parameters.
+}
+
+fullName => {
+    console.log(fullName);                           // arrow function syntax with one parameter. You can remove the parentheses if there is only one parameter.
+}
+
+
 
