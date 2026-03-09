@@ -5,6 +5,7 @@ export default function ReactComponent(title, firstName, lastName, age) {
   <>
 
   {/*these are the props being returned after they are passed into the Component (function).*/}
+  {/* e.g.: of what the component would look like in another file to use the normal props: <ReactComponent title="My Title" firstName="John" lastName="Doe" age={30} /> */}
     <H1>Normal Props:</H1>
     <h2>{title}</h2>
     <p>First Name: {firstName}</p>
