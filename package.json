@@ -1,5 +1,11 @@
 {
   "dependencies": {
-    "node": "^22.6.0"
+    "node": "^22.6.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.8"
   }
 }
